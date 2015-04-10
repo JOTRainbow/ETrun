@@ -156,7 +156,7 @@ function strip_modules() {
 # Main
 #
 parse_options "$@"
-clean
+#clean
 detect_os
 build
 # Useless to strip after pk3 creation, should be done before
